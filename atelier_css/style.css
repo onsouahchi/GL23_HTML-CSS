@@ -1,0 +1,98 @@
+body{
+    background: url("img/top_bg.png") no-repeat top,
+                url("img/foot_bg.png") no-repeat bottom;
+    background-size: 100% 65px, 100% 200px ;
+}
+
+#container{
+    margin: 65px auto 200px;
+    width: 1000px;
+
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#bg{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+*{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+ul{
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    display: table-cell;
+    background: #8e2f28;
+}
+
+ul li a {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px 17px 20px;
+    color: white;
+}
+ul li a:hover {
+    background-size: 20% 100%;
+    background: black url("img/rings.png") no-repeat right;
+}
+section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#ar1{
+    margin-right: 60px;
+    float:left;
+    width:45%;
+ }
+
+#big{
+    color: #8e2f28;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ #ar2{
+     float: right;
+     width: 50%;
+ }
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #8e2f28;
+}
+
+#im{
+    width:100%;
+}
+ td, #bv{
+     padding-right: 3px;
+     font-size: 1.3em;
+ }
+
+ footer{
+     text-align: center;
+     font-weight: bold;
+ }

@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+     <head>
+<title> inscription</title>
+
+     </head>
+
+        <body>
+            <h1 align="center"> Inscription en licence </h1>
+            <fieldset align="center">
+                <legend align="center">Information Personnelles</legend>
+                    Votre Nom :<input type='text' placeholder="votre nom?"> 
+                    <br><br>
+                    Votre Prénom :<input type='text' placeholder="votre prénom?"> 
+                    <br><br>
+                    Votre Date de naissance :<input type='date'> 
+                    <br><br>
+                    Votre Age :<input type='number' step="1" placeholder="votre age?"> 
+                    <br><br>
+                    Votre Adresse :<TEXTAREA ROWS=5 COLS=40 placeholder="votre adresse?"></TEXTAREA> 
+                    <br><br>
+                    Votre Adresse Email :<input type='email' placeholder="votre email?"> 
+                    <br><br>
+                    Votre site etudiant :<input type='url' placeholder="votre site etudiant?"> 
+                    <br><br>
+
+                    Mot de passe :<input type='password' required="required"> <br><br>
+                    Retapez votre mot de passe :<input type='password' required="required"> <br><br>
+            </fieldset>
+
+                <fieldset align="center">
+                    <legend align="center">Gestion des groupes et d'options</legend>
+                    Votre groupe :<input type='radio' value="groupe 1"> Groupe 1
+                    <input type='radio' value="groupe 2"> Groupe 2
+                    <input type='radio' value="groupe 3"> Groupe 3 <br><br>
+                    Numero de carte d'étudiant :<input type='text'> <br><br>
+                    Choissisez les options que vous désirez: 
+                    <SELECT NAME="ville"  SIZE=5 >
+                        <OPTION VALUE="J2ee"> J2ee
+                        <OPTION VALUE="Android"> Android
+                        <OPTION VALUE=".Net"> .Net
+                        <OPTION VALUE="HTML5"> HTML5
+                        <OPTION VALUE="Flex"> Flex
+                    </SELECT>            
+            </fieldset> 
+
+            <p align="center">
+                <TEXTAREA ROWS=1 COLS=10 pattern= "[I][N][S][A][T][0-9]{4}" >
+                </TEXTAREA>
+                <br>
+                <INPUT TYPE="submit" VALUE="Valider">
+                <INPUT TYPE="reset" VALUE="Réintiliser">
+            </p>
+
+        </body>
+        </html>
