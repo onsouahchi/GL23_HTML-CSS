@@ -6,28 +6,24 @@ body{
 
 #container{
     margin: 65px auto 200px;
-    width: 1000px;
-
-}
-header{
+    width: 950px;
     position: relative;
     top: 0;
     left: 0;
-    padding: 0;
-    margin: 0;
+}
+
+nav{
+    margin-top: -10px;
 }
 
 #bg{
     width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 #logo {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: -3px;
 }
 
 *{
@@ -58,14 +54,21 @@ ul li a:hover {
     background: black url("img/rings.png") no-repeat right;
 }
 section{
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 20px;
 }
+
 #ar1{
-    margin-right: 60px;
-    float:left;
-    width:45%;
- }
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+#ar2{
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+}
 
 #big{
     color: #8e2f28;
@@ -73,10 +76,6 @@ section{
     font-weight: bold;
 }
 
- #ar2{
-     float: right;
-     width: 50%;
- }
 
 a{
     font-weight: bold;
@@ -84,15 +83,34 @@ a{
     color: #8e2f28;
 }
 
-#im{
-    width:100%;
+
+.image{
+    float:left;
+    width: 200px;
+    height: 200px;
+    padding-right: 30px;
+    flex: 50%;
 }
- td, #bv{
-     padding-right: 3px;
-     font-size: 1.3em;
- }
+
+section img{
+    width: 220px;
+    height: 200px;
+}
+
+#cornerimg{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: auto;
+    bottom: 102px;
+}
 
  footer{
+     padding-top: 30px;
      text-align: center;
      font-weight: bold;
  }
+
+.clearfloat{
+    clear: both;
+}
